@@ -1,35 +1,54 @@
-🏦 Sistema de Caixa Eletrônico em Python
-Python Status
+# 🏦 Sistema de Caixa Eletrônico em Python
 
-Este é um projeto simples e eficiente de Caixa Eletrônico (ATM) desenvolvido em Python. O objetivo principal é simular as operações básicas de uma conta bancária de forma interativa via terminal.
+![Python](https://img.shields.io/badge/python-3.6%2B-blue.svg)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-Este projeto é excelente para o meu portfólio pois demonstra conceitos fundamentais de lógica de programação, manipulação de variáveis, estruturas de decisão (if/elif/else) e funções com passagem de parâmetros e retorno de valores.
+Um sistema simples e funcional de simulação de Caixa Eletrônico desenvolvido em Python. O projeto permite que o usuário informe seu saldo inicial e realize operações bancárias básicas de forma interativa diretamente no terminal.
 
-🚀 Funcionalidades
-💵 Depósito: Permite adicionar fundos ao saldo atual de maneira interativa.
-💸 Saque: Permite retirar valores da conta, validando se o saldo é suficiente antes de efetivar a transação.
-📊 Consulta de Saldo: Exibe o saldo atualizado do cliente a qualquer momento.
-🛡️ Validação: Impede saques com valores superiores ao saldo disponível.
-🛠️ Tecnologias Utilizadas
-Linguagem: Python 3.x
-📂 Estrutura do Código
-O sistema é composto por três blocos principais:
+## 🚀 Funcionalidades
 
-Funções de Operação: depositar(saldo) e sacar(saldo) tratam as regras de negócio de maneira isolada.
-Inicialização: O usuário é recebido e define o saldo inicial do sistema.
-Menu de Escolhas: Um painel interativo que direciona o usuário para a funcionalidade desejada.
-💻 Como Rodar o Projeto
-Pré-requisitos
-Você precisará ter o Python instalado em sua máquina ou utilizar um ambiente online como o Google Colab.
+- **Consultar Saldo:** Verifica o saldo atual disponível na conta.
+- **Depositar:** Permite adicionar fundos ao saldo existente.
+- **Sacar:** Realiza saques validando se há saldo suficiente para concluir a operação.
 
-Passo a Passo
-Clone este repositório:
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
-Acesse a pasta do projeto pelo seu terminal:
-cd nome-do-repositorio
-Execute o arquivo do projeto (substitua pelo nome do seu arquivo .py se for diferente):
-python main.py
-💡 Possíveis Melhorias para o Portfólio
-Estrutura de repetição: Adicionar uma estrutura de repetição (while) para que o usuário possa fazer várias operações consecutivas sem reiniciar o programa.
-Histórico de transações: Criar um histórico/extrato das operações realizadas.
-Múltiplos usuários: Adicionar suporte a múltiplos usuários utilizando dicionários ou Programação Orientada a Objetos (POO).
+## 🛠️ Tecnologias Utilizadas
+
+- **Linguagem:** Python 3
+- **Paradigma:** Programação Estruturada (Funções)
+
+## 🔧 Como Executar o Projeto
+
+### Pré-requisitos
+Você precisará ter o **Python 3** instalado em sua máquina.
+
+### Passo a Passo
+
+1. **Clone o repositório:**
+   ```bash
+   git clone https://github.com/seu-usuario/nome-do-seu-repositorio.git
+Navegue até a pasta do projeto:
+
+cd nome-do-seu-repositorio
+Execute o script principal:
+
+python seu_script.py
+📝 Exemplo de Uso
+Ao iniciar, o sistema dará as boas-vindas e solicitará o saldo inicial:
+
+Seja bem vindo
+Por gentileza, informe seu saldo: 1000
+Em seguida, você pode escolher a operação desejada:
+
+O que deseja fazer: 1 - ver saldo   2 - depositar   3 - sacar
+🤝 Contribuindo
+Contribuições são super bem-vindas! Sinta-se à vontade para abrir uma Issue ou enviar um Pull Request com melhorias, como:
+
+Adição de uma estrutura de repetição (while) para realizar múltiplas operações sem fechar o programa.
+Histórico de transações (extrato).
+Interface gráfica (GUI).
+📄 Licença
+Este projeto está sob a licença MIT. Veja o arquivo [redacted link] para mais detalhes.
+
+
+### Dica de ouro para o seu código:
+Se quiser deixar o projeto ainda melhor antes de subir para o GitHub, você pode colocar a escolha das ações dentro de um laço de repetição `while True`. Assim, o usuário pode fazer vários depósitos e saques sem que o programa termine após uma única operação!
